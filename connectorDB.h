@@ -10,7 +10,7 @@ class ConnectorDB {
         string user;
         string password;
         sqlite3 *db;
-        char *zErrMsg = 0;
+        char *error = 0;
         Response *response;
     
     public:
