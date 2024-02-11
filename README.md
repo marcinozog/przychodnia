@@ -6,7 +6,10 @@
 - W pliku init.sql są wszystkie zapytania do stworzenia tabel i uzepełnienia ich danymi
 - W menu pokazane są wszystkie dostępne opcje
 
+## Przykładowe menu
 ![alt text](https://github.com/marcinozog/przychodnia/blob/main/menu.png?raw=true)
+
+## Część pliku init.sql
 ![alt text](https://github.com/marcinozog/przychodnia/blob/main/sql_init.png?raw=true)
 
 **Kompilacja na systemie Windows nie została przetestowana**
