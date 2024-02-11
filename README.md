@@ -1,4 +1,5 @@
 # przychodnia
+![alt text](https://github.com/marcinozog/przychodnia/blob/main/sql_init.png?raw=true)
 ## Linux
 - Instalujemy bibliotekę wraz z nagłówkami: libsqlite3-dev
 - Program kompilujemy za pomocą komendy make  
