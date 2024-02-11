@@ -5,7 +5,7 @@ void Response::addRow() {
 }
 
 void Response::appendToHeader(string column) {
-    column.resize(18, ' ');
+    column.resize(20, ' ');
     header.push_back(column);
 }
 
