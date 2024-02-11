@@ -1,7 +1,3 @@
--- database: /root/Studia/C++/Bazadanych/przychodnia/przychodnia.db
-
--- Use the ▷ button in the top right corner to run the entire file.
-
 create table Lekarz (
 	PESEL int not null primary key,
 	Imie nchar(20) not null,
