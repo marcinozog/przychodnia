@@ -8,6 +8,8 @@ void pause() {
     cout << "\nPress Enter to continue..." << endl;
     getchar();
     getchar();
+    // string t;
+    // getline(cin, t);
 }
 
 int main(int argc, char* argv[]) {
@@ -33,7 +35,8 @@ int main(int argc, char* argv[]) {
         printf("d - Dodaj pacjenta\n"); 
         printf("u - Usuń pacjenta\n"); 
         printf("t - Wyświetl wizyty\n"); 
-        printf("i - Dodaj wizytę\n\n"); 
+        printf("i - Dodaj wizytę\n"); 
+        printf("K - Zamknij aplikację\n\n"); 
         printf("**********************\n");
         printf("Wybierz opcje: "); 
 
@@ -76,6 +79,10 @@ int main(int argc, char* argv[]) {
             pause();
         }
         else if(choice == "i") {
+            pause();
+        }
+        else if(choice == "K") {
+            break;
         }
         else {
             cout << "Błędny wybór" << endl;

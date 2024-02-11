@@ -40,7 +40,8 @@ void Przychodnia::wyswietl_response(string sql) {
         }
         separator += "\n";
         for(i = 0; i < col_num; i++) {
-            cout << "|\t" <<response->getHeader()[i] << "\t";
+            // cout << "|\t" << response->getHeader()[i] << "\t";
+            cout << "|\t" << response->getHeader()[i];
         }
         
         cout << separator;
@@ -48,7 +49,8 @@ void Przychodnia::wyswietl_response(string sql) {
 
         for(i = 0; i < row_num; i++) {
             for(int j = 0; j < col_num; j++) {
-                cout << "|\t" <<response->getResponse()[i][j] << "\t";
+                // cout << "|\t" <<response->getResponse()[i][j] << "\t";
+                cout << "|\t" <<response->getResponse()[i][j];
             }
             cout << endl;
         }

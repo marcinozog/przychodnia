@@ -5,10 +5,12 @@ void Response::addRow() {
 }
 
 void Response::appendToHeader(string column) {
+    column.resize(18, ' ');
     header.push_back(column);
 }
 
 void Response::appendToLastRow(string value) {
+    value.resize(20, ' ');
     resp[resp.size()-1].push_back(value);
 }
 
